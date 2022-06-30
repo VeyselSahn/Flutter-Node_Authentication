@@ -2,8 +2,8 @@ var nodemailer = require("nodemailer");//Nodemailer modülünü kurduktan sonra 
 
 module.exports = { sendMail, prepareMail };
 
-let mail = 'systemauth00@gmail.com';
-let pass = 'zeoqedliecppjwnd';
+let mail = '@gmail.com';
+let pass = '';
 
 var transfer = nodemailer.createTransport({
     service: "gmail",//gönderen mailin kullandığı servis
